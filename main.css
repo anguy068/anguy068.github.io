@@ -1,0 +1,913 @@
+body {
+    margin: 0;  
+}
+
+#home {
+    font-family: 'Merriweather', serif;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+    height: 100%;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    text-align: center; 
+}
+.center {
+    display: flex;
+/*    align-items: center;*/
+    justify-content: center;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+}
+
+.section-title {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Inconsolata', serif;
+    font-weight: bold;
+    margin: 10px;
+    color: red
+}
+
+.project1 {
+    width: 500px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 360px;
+    margin: 50px;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+}
+
+.project1-image {
+    float: left;
+    padding: 10px;
+    border-radius: 130px;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+}
+
+.project1-text {
+    font-family: 'Inconsolata', serif;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+}
+
+.project1-title {
+    font-weight: bold;
+    font-size: 20px;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+}
+
+.project1-description {
+    font-size: 16px;
+    padding: 2px;
+    margin-bottom: 10px;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+}
+
+.project2 {
+    width: 500px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 360px;
+    margin: 50px;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+}
+
+.project2-image {
+    float: left;
+    padding: 10px;
+    border-radius: 130px;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+}
+
+.project2-text {
+    font-family: 'Inconsolata', serif;
+    padding: 5px;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+}
+
+.project2-description {
+    font-size: 16px;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+}
+
+.project2-title {
+    font-weight: bold;
+    font-size: 20px;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+}
+
+#contact {
+    height: 50%;
+    margin-top: 100px;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+}
+
+.contact-name {
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Inconsolata', serif;
+    font-weight: bold;
+    
+    
+}
+#about {
+    height: 105%;
+/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
+}
+
+.about-text {
+    bottom: -650px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 25px;
+    padding: 50px;
+}
+
+#home-subtitle {
+    font-size: 25px;
+    color: red;
+}
+
+.topnav {
+    font-family: 'Raleway', sans-serif;
+    background-color: #333333;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+/*
+
+#brand {
+    position: fixed;
+    left: 0px;
+    background-color: #333333
+}
+*/
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: .5s ease;
+    color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #333333;
+    color: #ffffff;
+    transition: .5s ease;
+    font-size: 40px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#about-picture {
+    box-shadow: .5px .5px .5px .5px;
+    border-radius: 130px;
+/*    border: 2px solid;*/
+    border-color: black;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    background: #333;  
+    color: white;
+    margin: 5px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+/*    opacity: 0.7;*/
+}
+
+/* Set a specific color for each brand */
+.fa-linkedin{
+    background: #333;
+    color: white;
+    transition: .5s;
+}
+
+.fa-linkedin:hover {
+    background: #0077B5;
+    color: white;
+    transition: .5s;
+}
+.fa-facebook:hover {
+    background: #3b5998;
+    color: white;
+    transition: .5s;
+}
+
+.fa-envelope:hover {
+    background: #c71610;
+    color: white;
+    transition: .5s;
+}
+
+.fa-github:hover {
+    background: #981ea8;
+    color: white;
+    transition: .5s;
+}
+
+.fa-instagram:hover {
+    background: #9b6954;
+    color: white;
+    transition: .5s;
+}
+
+.resume {
+    font-size: 25px;
+    font-family: 'Inconsolata', serif;
+    font-weight: bold;
+}
+
+/*Standard portrait/landscape iPhone 5(small)*/
+@media (min-width: 320px) and (max-width: 480px) {
+    #home {
+        font-size: 50px;
+    }
+    
+    #home-subtitle {
+        font-size: 25px;
+    }
+    
+    .about-text {
+    bottom: -650px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Inconsolata', serif;
+    font-size: 19px;
+    margin: 0px;
+    padding: 2px;
+    left: 5px;
+    }
+    
+    .topnav a {
+        font-size: 13px;
+    }
+
+     /*Change the color of links on hover*/
+    .topnav a:hover {
+        font-size: 17px;
+        }
+    
+    .project1 {
+    width: 260px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 600px;
+    margin: 50px;
+    }
+
+    .project1-image {
+        float: left;
+        padding: 5px;
+        border-radius: 230px;
+    }
+
+    .project1-text {
+        font-family: 'Inconsolata', serif;
+        padding: 5px;
+    }
+
+    .project1-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .project1-description {
+    font-size: 16px;
+    }
+    
+    .project2 {
+    width: 260px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 600px;
+    margin: 50px;
+    }
+
+    .project2-image {
+        float: left;
+        padding: 5px;
+        border-radius: 230px;
+    }
+
+    .project2-text {
+        font-family: 'Inconsolata', serif;
+        padding: 5px;
+    }
+
+    .project2-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .project2-description {
+    font-size: 16px;
+    }
+    
+    .section-title {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Inconsolata', serif;
+    font-weight: bold;
+    margin: 10px;
+    color: red
+    }
+    
+    .contact-name {
+        font-size: 25px;
+    }
+    
+    .resume {
+    font-size: 25px;
+    font-family: 'Inconsolata', serif;
+}
+}
+
+/*iPhone 6,7,8 Portrait/Landscape (standard)*/
+@media (min-width: 375px) and (max-width: 667px) {
+    #home {
+        font-size: 50px;
+    }
+    
+/*
+    #brand {
+        font-size: 13px;
+    }
+*/
+    
+    #home-subtitle {
+        font-size: 25px;
+    }
+    
+    #about-text {
+    bottom: -850px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 15px;
+    margin: 15px;
+    padding: 20px;
+    margin-top: 30px;
+    left: 5px;
+        
+    }
+    
+    .topnav a {
+        font-size: 13px;
+    }
+
+     /*Change the color of links on hover*/
+    .topnav a:hover {
+        font-size: 17px;
+        }
+    
+    .project1 {
+    width: 260px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 600px;
+    margin: 50px;
+    }
+
+    .project1-image {
+        float: left;
+        padding: 5px;
+        border-radius: 230px;
+    }
+
+    .project1-text {
+        font-family: 'Inconsolata', serif;
+        padding: 5px;
+    }
+
+    .project1-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .project1-description {
+    font-size: 16px;
+    }
+    
+    .project2 {
+    width: 260px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 600px;
+    margin: 50px;
+    }
+
+    .project2-image {
+        float: left;
+        padding: 5px;
+        border-radius: 230px;
+    }
+
+    .project2-text {
+        font-family: 'Inconsolata', serif;
+        padding: 5px;
+    }
+
+    .project2-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .project2-description {
+    font-size: 16px;
+    }
+    
+    .section-title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Inconsolata', serif;
+    font-weight: bold;
+    margin: 30px;
+    color: red
+    }
+    
+    .contact-name {
+        font-size: 25px;
+    }
+    
+    .resume {
+    font-size: 25px;
+    font-family: 'Inconsolata', serif;
+}
+}
+
+/*iPhone 6+,7+,8+ Portrait/Landscape (Large Screen)*/
+@media (min-width: 480px) and (max-width: 736px) {
+    #home {
+        font-size: 50px;
+    }
+    
+/*
+    #brand {
+        font-size: 13px;
+    }
+*/
+    
+    #home-subtitle {
+        font-size: 25px;
+    }
+    
+    #about-text {
+    bottom: -690px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 15px;
+    margin: 15px;
+    padding: 0px;
+    margin-bottom: 110px;
+    left: 5px;
+        
+    }
+    
+    .topnav a {
+        font-size: 13px;
+    }
+
+     /*Change the color of links on hover*/ 
+    .topnav a:hover {
+        font-size: 17px;
+        }
+    
+    .project1 {
+    width: 260px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 600px;
+    margin: 50px;
+    }
+
+    .project1-image {
+        float: left;
+        padding: 5px;
+        border-radius: 230px;
+    }
+
+    .project1-text {
+        font-family: 'Inconsolata', serif;
+        padding: 5px;
+    }
+
+    .project1-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .project1-description {
+    font-size: 16px;
+    }
+    
+    .project2 {
+    width: 260px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 600px;
+    margin: 50px;
+    }
+
+    .project2-image {
+        float: left;
+        padding: 5px;
+        border-radius: 230px;
+    }
+
+    .project2-text {
+        font-family: 'Inconsolata', serif;
+        padding: 5px;
+    }
+
+    .project2-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .project2-description {
+    font-size: 16px;
+    }
+    
+    .section-title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Inconsolata', serif;
+    font-weight: bold;
+    margin: 30px;
+    color: red
+    }
+    
+    .contact-name {
+        font-size: 25px;
+    }
+    
+    .resume {
+    font-size: 25px;
+    font-family: 'Inconsolata', serif;
+}
+}
+
+/*iPad Tablet Small*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    #home {
+        font-size: 70px;
+    }
+    
+/*
+    #brand {
+        font-size: 13px;
+    }
+*/
+    
+    #home-subtitle {
+        font-size: 45px;
+    }
+    
+    #about-text {
+    bottom: -550px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    left: 5px;
+        
+    }
+    
+    .topnav a {
+        font-size: 13px;
+    }
+
+     /*Change the color of links on hover*/ 
+    .topnav a:hover {
+        font-size: 20px;
+        }
+    
+    .project1 {
+    width: 260px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 600px;
+    margin: 50px;
+    }
+
+    .project1-image {
+        float: left;
+        padding: 5px;
+        border-radius: 230px;
+    }
+
+    .project1-text {
+        font-family: 'Inconsolata', serif;
+        padding: 5px;
+    }
+
+    .project1-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .project1-description {
+    font-size: 16px;
+    }
+    
+    .project2 {
+    width: 260px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 600px;
+    margin: 50px;
+    }
+
+    .project2-image {
+        float: left;
+        padding: 5px;
+        border-radius: 230px;
+    }
+
+    .project2-text {
+        font-family: 'Inconsolata', serif;
+        padding: 5px;
+    }
+
+    .project2-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .project2-description {
+    font-size: 16px;
+    }
+    
+    .section-title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Inconsolata', serif;
+    font-weight: bold;
+    margin: px;
+    color: red
+    }
+    
+    .contact-name {
+        font-size: 25px;
+    }
+    
+    .resume {
+    font-size: 25px;
+    font-family: 'Inconsolata', serif;
+}
+}
+
+/*iPad Tablet Larger*/
+@media (min-width: 834px) and (max-width: 1112px) {
+    #home {
+        font-size: 80px;
+    }
+    
+/*
+    #brand {
+        font-size: 13px;
+    }
+*/
+    
+    #home-subtitle {
+        font-size: 45px;
+    }
+    
+    #about-text {
+    bottom: -550px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    left: 5px;
+        
+    }
+    
+    .topnav a {
+        font-size: 13px;
+    }
+
+     /*Change the color of links on hover*/ 
+    .topnav a:hover {
+        font-size: 20px;
+        }
+    
+    .project1 {
+    width: 260px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 600px;
+    margin: 50px;
+    }
+
+    .project1-image {
+        float: left;
+        padding: 5px;
+        border-radius: 230px;
+    }
+
+    .project1-text {
+        font-family: 'Inconsolata', serif;
+        padding: 5px;
+    }
+
+    .project1-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .project1-description {
+    font-size: 16px;
+    }
+    
+    .project2 {
+    width: 260px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 600px;
+    margin: 50px;
+    }
+
+    .project2-image {
+        float: left;
+        padding: 5px;
+        border-radius: 230px;
+    }
+
+    .project2-text {
+        font-family: 'Inconsolata', serif;
+        padding: 5px;
+    }
+
+    .project2-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .project2-description {
+    font-size: 16px;
+    }
+    
+    .section-title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Inconsolata', serif;
+    font-weight: bold;
+    margin: px;
+    color: #0a97ff
+    }
+    
+    .contact-name {
+        font-size: 25px;
+    }
+    
+    .resume {
+    font-size: 25px;
+    font-family: 'Inconsolata', serif;
+}
+}
+
+/*Large Laptop/Desktop*/
+@media (min-width: 1200px) and (max-width: 1600px) {
+    #home {
+        font-size: 90px;
+    }
+    
+/*
+    #brand {
+        font-size: 13px;
+    }
+*/
+    
+    #home-subtitle {
+        font-size: 65px;
+    }
+    
+    #about-text {
+    bottom: -550px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    left: 5px;
+        
+    }
+    
+    .topnav a {
+        font-size: 13px;
+    }
+
+     /*Change the color of links on hover*/ 
+    .topnav a:hover {
+        font-size: 20px;
+        }
+    
+    .project1 {
+    width: 260px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 600px;
+    margin: 50px;
+    }
+
+    .project1-image {
+        float: left;
+        padding: 5px;
+        border-radius: 230px;
+    }
+
+    .project1-text {
+        font-family: 'Inconsolata', serif;
+        padding: 5px;
+    }
+
+    .project1-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .project1-description {
+    font-size: 16px;
+    }
+    
+    .project2 {
+    width: 260px;
+/*    border: solid 2px;*/
+    border-radius: 5px;
+    height: 600px;
+    margin: 50px;
+    }
+
+    .project2-image {
+        float: left;
+        padding: 5px;
+        border-radius: 230px;
+    }
+
+    .project2-text {
+        font-family: 'Inconsolata', serif;
+        padding: 5px;
+    }
+
+    .project2-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .project2-description {
+    font-size: 16px;
+    }
+    
+    .section-title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Inconsolata', serif;
+    font-weight: bold;
+    margin: px;
+    color: red
+    }
+    
+    .contact-name {
+        font-size: 25px;
+    }
+    
+    .resume {
+    font-size: 25px;
+    font-family: 'Inconsolata', serif;
+}
+}
+
+
+
