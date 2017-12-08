@@ -174,9 +174,10 @@ body {
 
 #about-picture {
     box-shadow: .5px .5px .5px .5px;
-    border-radius: 130px;
+/*    border-radius: 130px;*/
 /*    border: 2px solid;*/
-    border-color: black;
+/*    border-color: black;*/
+    padding: 10px;
 }
 
 
