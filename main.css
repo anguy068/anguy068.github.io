@@ -1,132 +1,112 @@
 body {
-    margin: 0;  
+    margin: 20;  
 }
 
-#home {
+.userresearch {
     font-family: 'Merriweather', serif;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-    height: 100%;
-    font-size: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #333;
-    text-align: center; 
-}
-.center {
-    display: flex;
-/*    align-items: center;*/
-    justify-content: center;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-}
-
-.section-title {
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Inconsolata', serif;
-    font-weight: bold;
-    margin: 10px;
-    color: red
-}
-
-.project1 {
-    width: 500px;
-/*    border: solid 2px;*/
-    border-radius: 5px;
-    height: 360px;
-    margin: 50px;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-}
-
-.project1-image {
-    float: left;
-    padding: 10px;
-    border-radius: 130px;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-}
-
-.project1-text {
-    font-family: 'Inconsolata', serif;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-}
-
-.project1-title {
-    font-weight: bold;
-    font-size: 20px;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-}
-
-.project1-description {
-    font-size: 16px;
-    padding: 2px;
-    margin-bottom: 10px;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-}
-
-.project2 {
-    width: 500px;
-/*    border: solid 2px;*/
-    border-radius: 5px;
-    height: 360px;
-    margin: 50px;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-}
-
-.project2-image {
-    float: left;
-    padding: 10px;
-    border-radius: 130px;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-}
-
-.project2-text {
-    font-family: 'Inconsolata', serif;
-    padding: 5px;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-}
-
-.project2-description {
-    font-size: 16px;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-}
-
-.project2-title {
-    font-weight: bold;
-    font-size: 20px;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-}
-
-#contact {
-    height: 50%;
-    margin-top: 100px;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-}
-
-.contact-name {
-    padding: 10px;
-    font-size: 40px;
-    font-family: 'Inconsolata', serif;
-    font-weight: bold;
-    
-    
-}
-#about {
-    height: 105%;
-/*    background: linear-gradient(to right,#E100FF,#7F00FF);*/
-}
-
-.about-text {
-    bottom: -650px;
-    position: absolute;
-    text-align: center;
-    font-family: 'Inconsolata', sans-serif;
     font-size: 25px;
-    padding: 50px;
 }
 
-#home-subtitle {
+.userinterviews{
+    font-family: 'Inconsolata', serif;
+    font-size: 20px;
+}
+
+.userinterviews_title{
+    color: #0a97ff;
+    margin: 10;
+    margin-left: 0;
+}
+
+.competitoranalysis{
+    font-family: 'Inconsolata', serif;
+    font-size: 20px;
+}
+
+.competitoranalysis_title{
+    color: #0a97ff;
+    margin: 10;
+    margin-left: 0;
+}
+
+.featurematrix{
+    font-family: 'Inconsolata', serif;
+    font-size: 20px;
+}
+
+.featurematrix_title{
+    color: #0a97ff;
+    margin: 10;
+    margin-left: 0;
+}
+
+.featureprior{
+    font-family: 'Inconsolata', serif;
+    font-size: 20px;
+}
+
+.featureprior_title{
+    color: #0a97ff;
+    margin: 10;
+    margin-left: 0;
+}
+
+.usertesting {
+    font-family: 'Merriweather', serif;
     font-size: 25px;
-    color: red;
+}
+
+.userstories{
+    font-family: 'Inconsolata', serif;
+    font-size: 20px;
+}
+
+.userstories_title{
+    color: #0a97ff;
+    margin: 10;
+    margin-left: 0;
+}
+
+.cognitivewalkthrough{
+    font-family: 'Inconsolata', serif;
+    font-size: 20px;
+}
+
+.cognitivewalkthrough_title{
+    color: #0a97ff;
+    margin: 10;
+    margin-left: 0;
+}
+
+.usertest{
+    font-family: 'Inconsolata', serif;
+    font-size: 20px;
+}
+
+.usertest_title{
+    color: #0a97ff;
+    margin: 10;
+    margin-left: 0;
+}
+
+.summary {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+
+.summary_text{
+    font-family: 'Inconsolata', serif;
+    font-size: 20px;
+}
+
+.inc {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+
+.inc_text{
+    font-family: 'Inconsolata', serif;
+    font-size: 20px;
 }
 
 .topnav {
@@ -137,15 +117,7 @@ body {
     top: 0px;
     right: 0px;
 }
-/*
 
-#brand {
-    position: fixed;
-    left: 0px;
-    background-color: #333333
-}
-*/
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     display: block;
@@ -170,74 +142,6 @@ body {
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
-}
-
-#about-picture {
-    box-shadow: .5px .5px .5px .5px;
-/*    border-radius: 130px;*/
-/*    border: 2px solid;*/
-/*    border-color: black;*/
-    padding: 10px;
-}
-
-
-/* Style all font awesome icons */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    background: #333;  
-    color: white;
-    margin: 5px;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-/*    opacity: 0.7;*/
-}
- 
-/* Set a specific color for each brand */
-.fa-linkedin{
-    background: #333;
-    color: white;
-    transition: .5s;
-}
-
-.fa-linkedin:hover {
-    background: #0077B5;
-    color: white;
-    transition: .5s;
-}
-.fa-facebook:hover {
-    background: #3b5998;
-    color: white;
-    transition: .5s;
-}
-
-.fa-envelope:hover {
-    background: #c71610;
-    color: white;
-    transition: .5s;
-}
-
-.fa-github:hover {
-    background: #981ea8;
-    color: white;
-    transition: .5s;
-}
-
-.fa-instagram:hover {
-    background: #9b6954;
-    color: white;
-    transition: .5s;
-}
-
-.resume {
-    font-size: 25px;
-    font-family: 'Inconsolata', serif;
-    font-weight: bold;
 }
 
 /*Standard portrait/landscape iPhone 5(small)*/
